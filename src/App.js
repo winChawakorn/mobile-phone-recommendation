@@ -108,7 +108,7 @@ class App extends Component {
         <div style={{ padding: '10px 0' }}>
           {mobile.name}
         </div>
-      ) : 'No mobiles phone suit for you.'
+      ) : 'There is no mobile phone suit for you for now.'
     }
     </div>
   }
