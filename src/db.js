@@ -1,6 +1,6 @@
 const db = [
   {
-    name: 'Samsung  Galaxy S9',
+    name: 'Samsung Galaxy S9',
     brand: 'Samsung',
     price: 22800,
     platform: 'Android',
