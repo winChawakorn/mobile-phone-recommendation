@@ -103,10 +103,13 @@ class App extends Component {
       }
       return true
     })
-    return <div style={{ padding: '10px 0' }}> {mobiles.length > 0 ?
+    return <div style={{ padding: '10px 150px', display: 'flex', flexWrap: 'wrap' }}> {mobiles.length > 0 ?
       mobiles.map(mobile =>
-        <div style={{ padding: '10px 0' }}>
-          {mobile.name}
+        <div style={{ padding: '20px 40px', margin: 'auto' }}>
+          <b>{mobile.name}</b><br />
+          price: {mobile.price} Baht<br />
+          ram: {mobile.ram}<br />
+          CPU clock speed: {mobile.cpuClockSpeed}<br />
         </div>
       ) : 'There is no mobile phone suit for you for now.'
     }
